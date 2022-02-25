@@ -1,11 +1,11 @@
 # hand-grip-heart-rate-monitor
- Arduino code for Vernier Hand grip Heart rate Monitor sensor
-
-This repo is a final project of the course Electronic Devices for Biomedical Design (Sep 2020 - Jan 2021).
+This repo contains an Arduino program to calculate heart rate from the analog signal of a Vernier hand grip sensor.
+This is part of the final project of the *Electronic Devices for Biomedical Design* course (HCMIU VNU-HCMC, Sep 2020 - Jan 2021).
 Tutorial at https://www.vernier.com/engineering/arduino/arduino-online-guide/connecting-vernier-sensors-to-arduino/
 
+
 What the program does:
-- Take analog input from the Vernier sensor
-- Detect peaks
-- Calculate heart rate (is the mean period between each peak) with filtering and dampening to smoothen signal
-- Output heart rate and graph of analog signal
+1. Take analog input from the Vernier sensor
+2. Detect peaks
+3. Calculate heart rate (is the mean period between each peak) with filtering and dampening to smoothen results
+4. Output heart rate
